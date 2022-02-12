@@ -1,0 +1,21 @@
+nav{
+  width: 90%;
+    max-width: 560px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+top: 1em;
+background: white;
+transition: .2s;
+  }
+  
+nav input[type="search"]{
+  width: 90%;
+  max-width: 560px;
+  margin: auto;
+  padding: 1em;
+  border-radius: 50px;
+  border: solid 1px gray;
+}

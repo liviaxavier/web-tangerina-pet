@@ -1,0 +1,8 @@
+.classList{
+  display: flex;
+  gap: 10px;
+  scrollbar-width: none;
+  width: 100%;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
