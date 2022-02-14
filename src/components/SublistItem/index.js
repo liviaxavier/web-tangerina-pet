@@ -4,9 +4,10 @@ import './index.css'
 function SublistItem({item}) {
   return ( <div className='item'>
     {
+      item.thumb &&(
       !item.thumb.src ? 
       <div className='background'></div> :
-      <img src={item.thumb.src} alt={item.thumb.alt} />
+      <img src={item.thumb.src} alt={item.thumb.alt} />)
     }
     <p>{item.name}</p>
   </div> );

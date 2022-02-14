@@ -1,0 +1,21 @@
+[
+  { "id": 1, "name": "Caseira", "category": 1 },
+  { "id": 2, "name": "Nutricionista", "category": 1 },
+  { "id": 3, "name": "Adestramento", "category": 3 },
+  { "id": 4, "name": "Plano de Saúde", "category": 4 },
+  { "id": 5, "name": "Veterinários", "category": 4 },
+  { "id": 6, "name": "Terapias alternativas", "category": 4 },
+  { "id": 7, "name": "Hospitais", "category": 4 },
+  { "id": 8, "name": "Exames", "category": 4 },
+  { "id": 9, "name": "Táxi Dog", "category": 7 },
+  { "id": 10, "name": "Creche", "category": 8 },
+  { "id": 11, "name": "Hospedagem Peer To Peer", "category": 8 },
+  { "id": 12, "name": "Hotel", "category": 8 },
+  { "id": 13, "name": "Cat sitter", "category": 8 },
+  { "id": 14, "name": "Passeio", "category": 8 },
+  { "id": 15, "name": "Banho e Tosa", "category": 6 },
+  { "id": 16, "name": "Produtos de Banho", "category": 6 },
+  { "id": 17, "name": "Cachorródromos", "category": 5 },
+  { "id": 18, "name": "Hospedagem", "category": 5 },
+  { "id": 19, "name": "Lazer", "category": 5 }
+]

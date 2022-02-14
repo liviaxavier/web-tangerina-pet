@@ -1,14 +1,15 @@
 nav{
-  width: 90%;
-    max-width: 560px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-top: 1em;
+width: 100%;
+max-width: 560px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: sticky;
+top: 0;
 background: white;
 transition: .2s;
+z-index: 10;
   }
   
 nav input[type="search"]{
@@ -18,4 +19,16 @@ nav input[type="search"]{
   padding: 1em;
   border-radius: 50px;
   border: solid 1px gray;
+}
+
+.back-to{
+  position: absolute;
+left: 0;
+top: 1.5em;
+color: gray;
+transition: .2s;
+cursor: pointer;
+}
+.back-to:hover{
+  color: gainsboro;
 }

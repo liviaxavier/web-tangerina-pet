@@ -1,79 +1,25 @@
+import request from '../_base';
+import subcategory_mock from './subcategory_mock.json'
+import category_mock from './category_mock.json'
+
 const CategoryServices = {
-  List: () => {
-   return [
-     {
-       name: 'Categoria 1',
-       identifier:'categoria-1',
-       category: '',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria 2',
-       identifier:'categoria-2',
-       category:'',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria 3',
-       identifier:'categoria-3',
-       category:'',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria Tal',
-       identifier:'categoria-11',
-       category:'categoria-1',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria Tal',
-       identifier:'categoria-12',
-       category:'categoria-1',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria Tal',
-       identifier:'categoria-31',
-       category:'categoria-3',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria Tal',
-       identifier:'categoria-21',
-       category:'categoria-2',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-     {
-       name: 'Categoria Tal',
-       identifier:'categoria-22',
-       category:'categoria-2',
-       thumb:{
-          src: '',
-          alt: 'Texto alternativo'
-       },
-     },
-   ] 
+  SubcategoryList: async () => {
+    try {
+      // const response = await request.get('/subcategory')
+      // return response.data 
+      return subcategory_mock
+    } catch (error) {
+      throw error
+    }
+  },
+  List: async () => {
+        try {
+      // const response = await request.get('/category')
+      // return response.data 
+      return category_mock
+    } catch (error) {
+      throw error
+    }
   }
 }
 

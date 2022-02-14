@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Alimentação" },
+  { "id": 3, "name": "Educação" },
+  { "id": 4, "name": "Saúde" },
+  { "id": 5, "name": "Pet-Friendly" },
+  { "id": 6, "name": "Estética" },
+  { "id": 7, "name": "Transporte" },
+  { "id": 8, "name": "Cuidados" }
+]

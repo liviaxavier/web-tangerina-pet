@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Juliana",
+    "categories": [11, 13]
+  },
+  {
+    "id": 2,
+    "name": "Clínica Veterinária Mara",
+    "categories": [2, 5, 8]
+  }
+]

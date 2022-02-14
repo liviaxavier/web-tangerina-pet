@@ -4,7 +4,7 @@ import './index.css'
 
 function CollaboratorList({list}) {
   if(!list || list.length === 0) return 'Lista vazia'
-  return ( <section className='classList'>
+  return ( <section className='collaborator-list'>
     {list.map(
       (item, key) => <Collaborator item={item} key={key} />
     )} 

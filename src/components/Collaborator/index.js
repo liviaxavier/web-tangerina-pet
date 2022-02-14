@@ -1,14 +1,11 @@
 import React from 'react';
 import './index.css'
+import avatar_placeholder from '../../images/icon-avatar.png'
 
 function Collaborator({item}) {
   return ( <div className='collaborator'>
-    {
-      !item.thumb.src ? 
-      <div className='background'></div> :
-      <img src={item.thumb.src} alt={item.thumb.alt} />
-    }
-    <p>{item.name}</p>
+    <img src={avatar_placeholder} alt={"Imagem do colaborador"} className='collaborator-avatar'/>
+    <p className='collaborator-name'>{item.name}</p>
   </div> );
 }
 

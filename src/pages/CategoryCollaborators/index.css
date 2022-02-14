@@ -1,0 +1,16 @@
+.container{
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+main{
+  max-width: 560px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
