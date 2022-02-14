@@ -1,4 +1,4 @@
-import request from '../_base';
+// import request from '../_base';
 import subcategory_mock from './subcategory_mock.json'
 import category_mock from './category_mock.json'
 

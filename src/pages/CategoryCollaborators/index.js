@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Header } from '../../components';
-import CategoryList from '../../containers/CategoryList';
+// import CategoryList from '../../containers/CategoryList';
 import CollaboratorList from '../../containers/CollaboratorList';
-import CategoryServices from '../../services/Category';
+// import CategoryServices from '../../services/Category';
 import CollaboratorServices from '../../services/Collaborator';
 import './index.css'
 
