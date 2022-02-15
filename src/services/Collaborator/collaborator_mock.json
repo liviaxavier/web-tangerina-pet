@@ -2,11 +2,25 @@
   {
     "id": 1,
     "name": "Juliana",
-    "categories": [11, 13]
+    "description": "Meow to be let out grass smells good playing with balls of wool chirp at birds and stare at imaginary bug. Scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners food cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog lay on arms while you're using the keyboard or murder hooman toes pretend not to be evil yet pee in the shoe i like fish. ",
+    "categories": [11, 13],
+    "highlight": "vegano",
+    "state": "open"
   },
   {
     "id": 2,
     "name": "Clínica Veterinária Mara",
-    "categories": [2, 5, 8]
+    "description": "Meow to be let out grass smells good playing with balls of wool chirp at birds and stare at imaginary bug. Scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners food cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog lay on arms while you're using the keyboard or murder hooman toes pretend not to be evil yet pee in the shoe i like fish.",
+    "categories": [2, 5, 8],
+    "highlight": "natural",
+    "state": "open"
+  },
+  {
+    "id": 3,
+    "name": "Maria",
+    "description": "Meow to be let out grass smells good playing with balls of wool chirp at birds and stare at imaginary bug. Scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners food cat meoooow i iz master of hoomaan, not hoomaan master of i, oooh damn dat dog lay on arms while you're using the keyboard or murder hooman toes pretend not to be evil yet pee in the shoe i like fish. ",
+    "categories": [2, 5],
+    "highlight": "vegano",
+    "state": "open"
   }
 ]

@@ -1,14 +1,18 @@
 .collaborator{
-  height: 100px;
+  min-height: 150px;
   width: 100px;
   border-radius: 8px;
   position: relative;
   flex: 0 0 auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .collaborator p{
   z-index: 1;
   font-size: 14px;
+  padding: 0;
+  margin: 0;
 }
 .background{
   height: 100%;
@@ -17,4 +21,78 @@
   background-color: gray;
   z-index: -1;
   position: absolute;
+}
+
+.collaborator .collaborator-display{
+  height: 50px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.collaborator .collaborator-highlight{
+
+}
+.collaborator .collaborator-state{
+  font-size: 10px;
+}
+
+.collaborator .collaborator-description{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.collaborator .collaborator-description.open{
+  width: 90%;
+  margin-bottom: 20px;
+  display: flex;
+  -webkit-line-clamp: unset; /* number of lines to show */
+}
+
+.collaborator .collaborator-avatar{
+  height: 50px;
+  margin: 10px;
+}
+
+.collaborator .collaborator-name{
+  font-size: 16px;
+font-weight: bold;
+}
+
+.collaborator .collaborator-contacts{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:20%;
+}
+
+.collaborator .collaborator-contacts p{
+  background-color: gray;
+  border-radius: 50%;
+  width: 15px;
+height: 15px;
+margin: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 8px;
+cursor: pointer;
+}
+
+.collaborator-more{
+  position: absolute;
+bottom: 1em;
+right: 1em;
+color: gray;
+cursor: pointer;
+}
+
+.collaborator-more.open{
+  display: none;
 }
