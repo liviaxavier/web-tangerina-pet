@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Category from '../../components/Category';
-import SublistItem from '../../components/SublistItem';
 import SubList from '../SubcategoryList';
 import './index.css'
 
