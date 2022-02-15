@@ -14,3 +14,9 @@ main{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+main.search-list{
+  display: flex;
+flex-direction: revert;
+flex-wrap: wrap;
+}

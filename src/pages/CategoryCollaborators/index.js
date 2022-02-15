@@ -9,6 +9,7 @@ import './index.css'
 function CategoryCollaborators() {
 
   const [collaborators_list, setCollaboratorsList] = useState([])
+    const [search_list, setSearchList] = useState()
 
   const getCollaboratorsList = useCallback( async () => {
     const response = await CollaboratorServices.List()
@@ -20,9 +21,16 @@ function CategoryCollaborators() {
   }, [getCollaboratorsList])
 
   return ( <div className="container">
-    <Header back_to="/" />
+    <Header 
+    back_to="/" 
+    list_to_search={collaborators_list} 
+    search_callback={response => setSearchList(response)} 
+    
+    />
     <main>
-      <CollaboratorList list={collaborators_list}/>
+    
+      <CollaboratorList list={search_list || collaborators_list}/>
+    
     </main>
   </div> );
 }
